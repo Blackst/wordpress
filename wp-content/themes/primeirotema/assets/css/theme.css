@@ -1,0 +1,19 @@
+body{
+	background-color: #00FF00;
+}
+
+.main_menu{
+	background-color: #FF0000;
+}
+
+.main_menu ul,
+.main_menu li{
+	list-style: none;
+	text-decoration: none;
+	padding: 0;
+	margin: 0;
+}
+
+.main_menu li{
+	display: inline;
+}
