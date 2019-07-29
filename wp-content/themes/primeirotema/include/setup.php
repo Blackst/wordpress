@@ -10,4 +10,16 @@
 
  		register_nav_menu('primary', __('Primary Menu', 'primeirotema'));
  	}
+
+ 	function bp_widgets(){
+ 		register_sidebar(array(
+ 			'name' => __('Meu Primeiro Sidebar', 'primeirotema'),
+ 			'id' => 'bp_sidebar', 
+ 			'description' => __('Sidebar para o tema', 'primeirotema'),
+ 			'before_title' => '<h4 class="widget_title">',
+ 			'after_title' => '</h4>',
+ 			'before_widget' => '<div id="%1$s" class="widget %2$s">',
+ 			'after_widget' => '</div>'
+ 		));
+ 	}
  ?>
