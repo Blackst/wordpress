@@ -34,6 +34,12 @@
 
 				<?php endwhile; ?>
 			<?php endif; ?>
+
+			<div class="paginacao">
+				<div class="pagina_anterior"><?php previous_posts_link('Página anterior'); ?></div>
+
+				<div class="proxima_pagina"><?php next_posts_link('Próxima página'); ?></div>
+			</div>
 		</div>
 
 		<?php get_sidebar(); ?>
