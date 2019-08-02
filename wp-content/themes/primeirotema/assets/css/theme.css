@@ -56,3 +56,12 @@ article .post_thumbnail{
 .proxima_pagina{
 	float: right;
 }
+
+.comentario{
+	border-bottom: 1px solid #CCC;
+}
+
+.comentario_foto{
+	float: left;
+	margin-right: 10px;
+}

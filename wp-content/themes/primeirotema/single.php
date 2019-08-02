@@ -28,6 +28,14 @@
 						<p>
 							<?php comments_number('0 comentários', 'um comentário', '% comentários'); ?>
 						</p>
+
+						<hr>
+
+						<?php 
+							if(comments_open()){
+								comments_template();
+							}
+						 ?>
 					</article>
 
 				<?php endwhile; ?>
