@@ -3,6 +3,9 @@
 	<section>
 		
 		<div class="container">
+
+			<h2><?php the_archive_title(); ?></h2>
+
 			<?php if(have_posts()): ?>
 				<?php while(have_posts()): ?>
 					<?php the_post(); ?>
