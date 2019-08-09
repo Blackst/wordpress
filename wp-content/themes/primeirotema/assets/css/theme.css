@@ -69,3 +69,8 @@ article .post_thumbnail{
 	float: left;
 	margin-right: 10px;
 }
+
+.related_post_item{
+	width: 33%;
+	float: left;
+}
