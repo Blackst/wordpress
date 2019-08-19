@@ -14,7 +14,7 @@
 		add_theme_support("custom-logo");
 
 		register_nav_menu("primary", "Menu Primário");
-		register_nav_menu("top", "Manu Superior");
+		register_nav_menu("top", "Menu Superior");
 
 	}
 
