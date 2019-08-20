@@ -19,6 +19,14 @@
 	}
 
 	function tm_widgets(){
-
+		register_sidebar(array(
+			'name' => 'Sidebar Lateral',
+			'id' => 'tm_sidebar',
+			'description' => 'Sidebar Lateral',
+			'before_widget' => '<div id="%1$s" class="widget %2$s">',
+			'after_widget' => '</div>',
+			'before_title' => '<h4 class="widget_title">',
+			'after_title' => '</h4>'
+		));
 	}
  ?>
