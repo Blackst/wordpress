@@ -99,3 +99,32 @@ body{
 .main_info .row{
 	margin: 0;
 }
+
+.randompost{
+	line-height: 55px;
+	color: #999999;
+}
+
+.randompost a{
+	color: #999999;
+}
+
+.socialtxt{
+	line-height: 55px;
+	float: left;
+}
+
+.socialicons{
+	float: right;
+	height: 20px;
+	margin-top: 17px;
+}
+
+.socialicons img{
+	height: 20px;
+}
+
+.socialicons a{
+	text-decoration: none;
+}
+
