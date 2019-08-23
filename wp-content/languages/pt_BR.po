@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.2.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-06-18 18:21:08+0000\n"
+"PO-Revision-Date: 2019-08-23 13:39:15+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1494,7 +1494,7 @@ msgstr "foto"
 
 #: wp-includes/js/dist/block-library.js:10703
 msgid "Insert an image to make a visual statement."
-msgstr "Insira uma image para fazer uma declaração visual."
+msgstr "Insira uma imagem para fazer uma declaração visual."
 
 #: wp-includes/js/dist/block-library.js:10336
 msgid "Image Dimensions"
