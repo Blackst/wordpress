@@ -28,5 +28,15 @@
 			'before_title' => '<h4 class="widget_title">',
 			'after_title' => '</h4>'
 		));
+
+		register_sidebar(array(
+			'name' =>'Sidebar Rodapé',
+			'id' => 'tm_footersidebar',
+			'description' => 'Sidebar Rodapé',
+			'before_widget' => '<div id="%1$s" class="widget %2$s">',
+			'after_widget' => '</div>',
+			'before_title' => '<h4 class="widget_title">',
+			'after_title' => '</h4>'
+		));
 	}
  ?>
